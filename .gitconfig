@@ -1,0 +1,14 @@
+[user]
+	name = William R. J. Ribeiro
+	email = will@williamrjribeiro.com
+
+[credential]
+	helper = osxkeychain
+
+[init]
+	defaultBranch = main
+
+[oh-my-zsh]
+	hide-info = 1
+	hide-status = 1
+	hide-dirty = 1

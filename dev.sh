@@ -17,7 +17,7 @@ echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 echo "source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 
 sed -i "" 's/ZSH_THEME="robbyrussell"/# ZSH_THEME="robbyrussell"/g' ~/.zshrc
-sed -i "" 's/plugins=(git)/plugins=(git docker docker-compose)/g' ~/.zshrc
+sed -i "" 's/plugins=(git)/plugins=(git docker docker-compose aws fzf)/g' ~/.zshrc
 
 cp /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/*.otf ~/Library/Fonts/
 

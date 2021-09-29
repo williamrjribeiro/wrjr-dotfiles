@@ -8,15 +8,6 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 
-# Apps
-cask "iterm2"
-cask "visual-studio-code"
-cask "postman"
-cask "firefox"
-cask "font-hack-nerd-font"
-cask "font-fira-code"
-cask "docker"
-
 # System
 brew "coreutils"
 brew "curl"
@@ -41,3 +32,13 @@ brew "zsh-syntax-highlighting"
 brew "fzf"
 brew "awscli"
 brew "spaceship"
+brew "docker"
+
+# Apps
+cask "iterm2"
+cask "visual-studio-code"
+cask "postman"
+cask "firefox"
+cask "font-hack-nerd-font"
+cask "font-fira-code"
+cask "docker"
